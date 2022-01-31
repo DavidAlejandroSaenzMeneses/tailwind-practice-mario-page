@@ -1,9 +1,13 @@
-module.exports ={
+module.exports = {
     content: [
         './public/**/*.{html,js,jsx,ts,tsx,vue}',
     ],
-    theme:{
-        extend: {}
+    theme: {
+        extend: {
+            backgroundImage: {
+                'wave-pattern': "url('/img/wave-white.png')",
+            }
+        }
     },
     plugins: [],
-}
+  }

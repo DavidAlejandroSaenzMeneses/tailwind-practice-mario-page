@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*componentes o conjuntos de diseño personalizado*/
+.link{
+    @apply text-white block p-5 font-bold hover:text-yellow-500
+}
